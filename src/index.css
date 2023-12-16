@@ -1,0 +1,19 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0rem !important;
+    text-align: center;
+}
+
+
+element.style {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("../../vite-project/public/6.jpg") !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: inherit;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+    overflow: hidden;
+}
