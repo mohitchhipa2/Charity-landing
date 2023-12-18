@@ -42,7 +42,7 @@
  a{
     cursor: pointer !important;
  }
- 
+
 
 html,
 body,
@@ -1816,7 +1816,7 @@ header.one-page .navbar-nav>li>a span {
 
 .section-banner {
     padding: 250px 0px 300px;
-    background: url("../../public/6.jpg");
+    background: url("/public/6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
