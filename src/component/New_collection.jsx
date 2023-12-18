@@ -3,7 +3,7 @@ import React from 'react'
 const New_collection =  [
     {
         id:1,
-        Image:"/public/26.webp",
+        Image:"../../public/26.webp",
         heading:'The innovative organisation – promoting a culture',
         name:'Deborah Beck',
         category:'Cable, Help & People',

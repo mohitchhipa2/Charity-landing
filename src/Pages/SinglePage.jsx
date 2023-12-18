@@ -72,7 +72,7 @@ const SinglePage = () => {
           {/* end .topic-bold-header  */}
           <figure className="author-avatar">
             <a href="">
-              <img src="/public/28.jpg" alt="Avatar" />
+              <img src="../..//public/28.jpg" alt="Avatar" />
             </a>
           </figure>
           <div className="about_author">
@@ -131,7 +131,7 @@ const SinglePage = () => {
                 </header>
                 <figure className="comment-avatar">
                   <a href>
-                    <img src="public/6.jpg" alt="Avatar" />
+                    <img src="../../public/6.jpg" alt="Avatar" />
                   </a>
                 </figure>
                 <p className="waiting-moderation">

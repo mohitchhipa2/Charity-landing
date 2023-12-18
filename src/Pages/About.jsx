@@ -53,7 +53,7 @@ const About = () => {
                                     Since its founding in 1992, the Alliance has been a consistent safety net for more than 100,000 children and families.
                                 </p>
                                 <div className="info-separotor">
-                                    <img src="public/signature.png" alt />
+                                    <img src="../../public/signature.png" alt />
                                     <p>
                                         <strong>Brandon Munson</strong>
                                         <br />CEO, Generosity Club
@@ -62,7 +62,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <img src="public/volunteers.jpg" alt />
+                            <img src="../../public/volunteers.jpg" alt />
                         </div>
                     </div>
                     {/*  end .row*/}
@@ -173,7 +173,7 @@ const About = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="MELISSA MUNOZ">
-                                        <img src="public/13.webp" alt="MELISSA MUNOZ" />
+                                        <img src="../../public/13.webp" alt="MELISSA MUNOZ" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -206,7 +206,7 @@ const About = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="ALEXANDER GARY">
-                                        <img src="public/14.webp" alt="ALEXANDER GARY" />
+                                        <img src="../../public/14.webp" alt="ALEXANDER GARY" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -239,7 +239,7 @@ const About = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="JOHN ABRAHAM">
-                                        <img src="public/15.webp" alt="JOHN ABRAHAM" />
+                                        <img src="../../public/15.webp" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -272,7 +272,7 @@ const About = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="JOHN ABRAHAM">
-                                        <img src="public/16.webp" alt="JOHN ABRAHAM" />
+                                        <img src="../../public/16.webp" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -348,17 +348,17 @@ const About = () => {
       <div className="logo-layout-2">
         <div className="col-lg-3 col-md-3 col-sm-6">
           <div className="client-logo">
-            <img src="public/logo_1.webp" alt />
+            <img src="../../public/logo_1.webp" alt />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
           <div className="client-logo">
-            <img src="public/logo_2.webp" alt />
+            <img src="../../public/logo_2.webp" alt />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
           <div className="client-logo">
-            <img src="public/logo_3.webp" alt />
+            <img src="../../public/logo_3.webp" alt />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
@@ -368,12 +368,12 @@ const About = () => {
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
           <div className="client-logo">
-            <img src="public/logo_5.webp" alt />
+            <img src="../../public/logo_5.webp" alt />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
           <div className="client-logo">
-            <img src="public/logo_6.webp" alt />
+            <img src="../../public/logo_6.webp" alt />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
@@ -383,7 +383,7 @@ const About = () => {
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6">
           <div className="client-logo">
-            <img src="public/logo_8.webp" alt />
+            <img src="../../public/logo_8.webp" alt />
           </div>
         </div>
       </div>

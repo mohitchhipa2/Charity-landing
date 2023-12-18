@@ -63,7 +63,7 @@ const Home = () => {
                                     Since its founding in 1992, the Alliance has been a consistent safety net for more than 100,000 children and families.
                                 </p>
                                 <div className="info-separotor">
-                                    <img src="public/signature.png" alt />
+                                    <img src="../../public/signature.png" alt />
                                     <p>
                                         <strong>Brandon Munson</strong>
                                         <br />CEO, Generosity Club
@@ -72,7 +72,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <img src="public/volunteers.jpg" alt />
+                            <img src="../../public/volunteers.jpg" alt />
                         </div>
                     </div>
                     {/*  end .row*/}
@@ -129,7 +129,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-md-7">
                             <figure className="urget-cause-image">
-                                <img src="public/7.webp" alt="activity" />
+                                <img src="../../public/7.webp" alt="activity" />
                             </figure>
                         </div>
                         {/* end .col-sm-12  */}
@@ -236,7 +236,7 @@ const Home = () => {
                             </div></div><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div className="cause-layout-1">
                                     <figure className="cause-img">
-                                        <img src="public/7.webp" alt="Cause" />
+                                        <img src="../../public/7.webp" alt="Cause" />
                                     </figure>
                                     {/* end .cause-img  */}
                                     <div className="fund-info">
@@ -268,7 +268,7 @@ const Home = () => {
                             </div></div><div className="owl-item active" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div className="cause-layout-1">
                                     <figure className="cause-img">
-                                        <img src="public/8.webp" alt="Cause" />
+                                        <img src="../../public/8.webp" alt="Cause" />
                                     </figure>
                                     {/* end .cause-img  */}
                                     <div className="fund-info">
@@ -300,7 +300,7 @@ const Home = () => {
                             </div></div><div className="owl-item active" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div className="cause-layout-1">
                                     <figure className="cause-img">
-                                        <img src="public/9.webp" alt="Cause" />
+                                        <img src="../../public/9.webp" alt="Cause" />
                                     </figure>
                                     {/* end .cause-img  */}
                                     <div className="fund-info">
@@ -332,7 +332,7 @@ const Home = () => {
                             </div></div><div className="owl-item" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div className="cause-layout-1">
                                     <figure className="cause-img">
-                                        <img src="images/cause_3.jpg" alt="Cause" />
+                                        <img src="../../images/cause_3.jpg" alt="Cause" />
                                     </figure>
                                     {/* end .cause-img  */}
                                     <div className="fund-info">
@@ -494,7 +494,7 @@ const Home = () => {
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="event-wrapper-1">
                                 <figure className="event-img">
-                                    <img src="public/10.webp" alt />
+                                    <img src="../../public/10.webp" alt />
                                     <div className="event-date">
                                         <i className="fa fa-calendar" />
                                         15 Sep 2017</div>
@@ -515,7 +515,7 @@ const Home = () => {
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="event-wrapper-1">
                                 <figure className="event-img">
-                                    <img src="public/11.webp" alt />
+                                    <img src="../../public/11.webp" alt />
                                     <div className="event-date">
                                         <i className="fa fa-calendar" />
                                         25 Sep 2017</div>
@@ -536,7 +536,7 @@ const Home = () => {
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="event-wrapper-1">
                                 <figure className="event-img">
-                                    <img src="public/12.webp" alt />
+                                    <img src="../../public/12.webp" alt />
                                     <div className="event-date">
                                         <i className="fa fa-calendar" />
                                         20 Sep 2017</div>
@@ -581,7 +581,7 @@ const Home = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="MELISSA MUNOZ">
-                                        <img src="public/13.webp" alt="MELISSA MUNOZ" />
+                                        <img src="../../public/13.webp" alt="MELISSA MUNOZ" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -614,7 +614,7 @@ const Home = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="ALEXANDER GARY">
-                                        <img src="public/14.webp" alt="ALEXANDER GARY" />
+                                        <img src="../../public/14.webp" alt="ALEXANDER GARY" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -647,7 +647,7 @@ const Home = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="JOHN ABRAHAM">
-                                        <img src="public/15.webp" alt="JOHN ABRAHAM" />
+                                        <img src="../../public/15.webp" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -680,7 +680,7 @@ const Home = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a href="#" title="JOHN ABRAHAM">
-                                        <img src="public/16.webp" alt="JOHN ABRAHAM" />
+                                        <img src="../../public/16.webp" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
@@ -860,7 +860,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter hdpe">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/17.webp" alt="gallery image" />
+                                    <img src="../../public/17.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -870,7 +870,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter sprinkle">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/18.webp" alt="gallery image" />
+                                    <img src="../../public/18.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -879,7 +879,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/19.webp" alt="gallery image" />
+                                    <img src="../../public/19.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -889,7 +889,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter spray">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/23.webp" alt="gallery image" />
+                                    <img src="../../public/23.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -898,7 +898,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/24.webp" alt="gallery image" />
+                                    <img src="../../public/24.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -908,7 +908,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter sprinkle">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/20.webp " alt="gallery image" />
+                                    <img src="../../public/20.webp " alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -917,7 +917,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/21.webp" alt="gallery image" />
+                                    <img src="../../public/21.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -927,7 +927,7 @@ const Home = () => {
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
                             <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
                                 <figure className="gallery-img">
-                                    <img src="public/22.webp" alt="gallery image" />
+                                    <img src="../../public/22.webp" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -957,27 +957,27 @@ const Home = () => {
                         <div className="logo-layout-2">
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_1.webp" alt />
+                                    <img src="../../public/logo_1.webp" alt />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_2.webp" alt />
+                                    <img src="../../public/logo_2.webp" alt />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_3.webp" alt />
+                                    <img src="../../public/logo_3.webp" alt />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_4.webp" alt />
+                                    <img src="../../public/logo_4.webp" alt />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_5.webp" alt />
+                                    <img src="../../public/logo_5.webp" alt />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
@@ -987,12 +987,12 @@ const Home = () => {
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_7.webp" alt />
+                                    <img src="../../public/logo_7.webp" alt />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="client-logo">
-                                    <img src="public/logo_8.webp" alt />
+                                    <img src="../../public/logo_8.webp" alt />
                                 </div>
                             </div>
                         </div>

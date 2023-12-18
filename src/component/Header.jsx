@@ -51,7 +51,7 @@ const navigate=useNavigate()
           <div className="col-md-4 col-sm-12 header-col-logo">
             <div className="header-logo logo">
               <a href=''>
-                <img src="public/logo image.jpg" alt="Logo" />
+                <img src="../../public/logo image.jpg" alt="Logo" />
               </a>
             </div>
             {/* end .logo  */}

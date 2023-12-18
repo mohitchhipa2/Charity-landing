@@ -3,7 +3,7 @@ import React from 'react'
 let  Collection =  [
     {
         id:1,
-        Image:"public/25.jpg",
+        Image:"../../public/25.jpg",
         heading:'Small charities communications conference',
         name:'Deborah Beck',
         category:'Repair',
@@ -13,7 +13,7 @@ let  Collection =  [
 
     {
         id:2,
-        Image:"public/26.webp",
+        Image:"../../public/26.webp",
         heading:'The innovative organisation – promoting a culture of creativity',
         name:'Deborah Beck',
         category:'Bicycle',
@@ -23,7 +23,7 @@ let  Collection =  [
 
     {
         id:3,
-        Image:"public/27.webp",
+        Image:"../../public/27.webp",
         heading:'The innovative organisation – promoting a culture of creativity',
         name:'Deborah Beck',
         category:'Bicycle',

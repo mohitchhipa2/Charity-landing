@@ -43,7 +43,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter hdpe">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/17.webp" alt="gallery image" />
+            <img src="../../public/17.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -53,7 +53,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter sprinkle">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/18.webp" alt="gallery image" />
+            <img src="../../public/18.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -62,7 +62,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/19.webp" alt="gallery image" />
+            <img src="../../public/19.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -72,7 +72,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter spray">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/23.webp" alt="gallery image" />
+            <img src="../../public/23.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -81,7 +81,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/24.webp" alt="gallery image" />
+            <img src="../../public/24.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -91,7 +91,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter sprinkle">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/20.webp " alt="gallery image" />
+            <img src="../../public/20.webp " alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -100,7 +100,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/21.webp" alt="gallery image" />
+            <img src="../../public/21.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -110,7 +110,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/22.webp" alt="gallery image" />
+            <img src="../../public/22.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -123,7 +123,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter hdpe">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/17.webp" alt="gallery image" />
+            <img src="../../public/17.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -133,7 +133,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter sprinkle">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/18.webp" alt="gallery image" />
+            <img src="../../public/18.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -142,7 +142,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/19.webp" alt="gallery image" />
+            <img src="../../public/19.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -161,7 +161,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/24.webp" alt="gallery image" />
+            <img src="../../public/24.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -171,7 +171,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter sprinkle">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/20.webp " alt="gallery image" />
+            <img src="../../public/20.webp " alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -180,7 +180,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
           <figure className="gallery-img">
-            <img src="public/21.webp" alt="gallery image" />
+            <img src="../../public/21.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
@@ -190,7 +190,7 @@ const Portfolio = () => {
       <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
         <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
           <figure className="gallery-img">
-            <img src="public/22.webp" alt="gallery image" />
+            <img src="../../public/22.webp" alt="gallery image" />
           </figure>
           {/* end .cause-img  */}
         </a>
