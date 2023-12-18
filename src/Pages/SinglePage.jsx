@@ -72,7 +72,7 @@ const SinglePage = () => {
           {/* end .topic-bold-header  */}
           <figure className="author-avatar">
             <a href="">
-              <img src="../..//public/28.jpg" alt="Avatar" />
+              <img src="/public/28.jpg" alt="Avatar" />
             </a>
           </figure>
           <div className="about_author">
@@ -131,7 +131,7 @@ const SinglePage = () => {
                 </header>
                 <figure className="comment-avatar">
                   <a href>
-                    <img src="../../public/6.jpg" alt="Avatar" />
+                    <img src="../../public/29.webp" alt="Avatar" />
                   </a>
                 </figure>
                 <p className="waiting-moderation">
@@ -158,7 +158,7 @@ const SinglePage = () => {
                 </header>
                 <figure className="comment-avatar">
                   <a href>
-                    <img src="images/user_2.jpg" alt="Avatar" />
+                    <img src="../../public/30.webp" alt="Avatar" />
                   </a>
                 </figure>
                 <p className="waiting-moderation">
@@ -182,7 +182,7 @@ const SinglePage = () => {
                     </header>
                     <figure className="comment-avatar">
                       <a href>
-                        <img src="images/user_3.jpg" alt="Avatar" />
+                        <img src="../../public/31.webp" alt="Avatar" />
                       </a>
                     </figure>
                     <div className="comment_text">
@@ -207,7 +207,7 @@ const SinglePage = () => {
                 </header>
                 <figure className="comment-avatar">
                   <a href>
-                    <img src="images/user_4.jpg" alt="Avatar" />
+                    <img src="../../public/32.webp" alt="Avatar" />
                   </a>
                 </figure>
                 <p className="waiting-moderation">
