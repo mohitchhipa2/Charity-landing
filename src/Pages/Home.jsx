@@ -8,10 +8,12 @@ import "../../generosity/css/venobox.css"
 import "../../generosity/css/animate.css"
 import "../../generosity/css/font-awesome.min.css"
 import "../../generosity/css/styles.css"
+import { useNavigate } from 'react-router-dom';
 
 
 
 const Home = () => {
+    const navigate = useNavigate()
     return (
         <div>
 
@@ -35,8 +37,8 @@ const Home = () => {
                                     We ensure financial supports over 10k orphans and their families.
                                 </h3>
                                 <div className="slider-button">
-                                    <a href="" className="btn btn-custom">Learn More</a>
-                                    <a href="/Donation" className="btn btn-custom-inverse">Donate Now</a>
+                                    <a  className="btn btn-custom">Learn More</a>
+                                    <a  onClick={()=>navigate('/Donation')} className="btn btn-custom-inverse">Donate Now</a>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +166,7 @@ const Home = () => {
                                         </div>
                                         <div className="col-sm-12 clearfix">
                                             
-                                            <a className="btn btn-theme pull-right" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme pull-right"  onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +229,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -259,7 +261,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -291,7 +293,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -323,7 +325,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -355,7 +357,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase" onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -387,7 +389,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -419,7 +421,7 @@ const Home = () => {
                                             The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
                                         </p>
                                         <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" href="/Donation">Donate Now</a>
+                                            <a className="btn btn-theme text-uppercase" onClick={()=>navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                     {/* end .cause-content  */}
@@ -501,11 +503,11 @@ const Home = () => {
                                 </figure>
                                 <div className="event-content">
                                     <h5>
-                                        <a href="#">Bring Orphan's Happiness</a>
+                                        <a >Bring Orphan's Happiness</a>
                                     </h5>
                                     <p>We work to unite the geek community into a massive force to opportunity families and communities worldwide.</p>
                                     <span className="btn-read-more">
-                                        <a href="#">Read More »</a>
+                                        <a >Read More »</a>
                                     </span>
                                 </div>
                             </div>
@@ -522,11 +524,11 @@ const Home = () => {
                                 </figure>
                                 <div className="event-content">
                                     <h5>
-                                        <a href="#">Provide Equal Opportunity</a>
+                                        <a >Provide Equal Opportunity</a>
                                     </h5>
                                     <p>We work to unite the geek community into a massive force to opportunity families and communities worldwide.</p>
                                     <span className="btn-read-more">
-                                        <a href="#">Read More »</a>
+                                        <a >Read More »</a>
                                     </span>
                                 </div>
                             </div>
@@ -543,11 +545,11 @@ const Home = () => {
                                 </figure>
                                 <div className="event-content">
                                     <h5>
-                                        <a href="#">Charity Benefit Concert</a>
+                                        <a >Charity Benefit Concert</a>
                                     </h5>
                                     <p>We work to unite the geek community into a massive force to opportunity families and communities worldwide.</p>
                                     <span className="btn-read-more">
-                                        <a href="#">Read More »</a>
+                                        <a >Read More »</a>
                                     </span>
                                 </div>
                             </div>
@@ -558,7 +560,7 @@ const Home = () => {
                     {/* end .row  */}
                     <div className="row">
                         <div className="col-sm-12 col-md-4 col-md-offset-4 text-center">
-                            <a className="btn btn-load-more" href="#">- Load All Events -</a>
+                            <a className="btn btn-load-more" >- Load All Events -</a>
                         </div>
                     </div>
                 </div>
@@ -580,7 +582,7 @@ const Home = () => {
                         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div className="team-layout-1">
                                 <figure className="team-member">
-                                    <a href="#" title="MELISSA MUNOZ">
+                                    <a  title="MELISSA MUNOZ">
                                         <img src="../../public/13.webp" alt="MELISSA MUNOZ" />
                                     </a>
                                 </figure>
@@ -591,16 +593,16 @@ const Home = () => {
                                         <span>/ Founder</span>
                                     </h3>
                                     <div className="team-social-share text-center clearfix">
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-facebook rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-twitter rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-pinterest rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-linkedin rectangle" />
                                         </a>
                                     </div>
@@ -613,7 +615,7 @@ const Home = () => {
                         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div className="team-layout-1">
                                 <figure className="team-member">
-                                    <a href="#" title="ALEXANDER GARY">
+                                    <a  title="ALEXANDER GARY">
                                         <img src="../../public/14.webp" alt="ALEXANDER GARY" />
                                     </a>
                                 </figure>
@@ -624,16 +626,16 @@ const Home = () => {
                                         <span>/ Founder</span>
                                     </h3>
                                     <div className="team-social-share text-center clearfix">
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-facebook rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-twitter rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-pinterest rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-linkedin rectangle" />
                                         </a>
                                     </div>
@@ -646,7 +648,7 @@ const Home = () => {
                         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div className="team-layout-1">
                                 <figure className="team-member">
-                                    <a href="#" title="JOHN ABRAHAM">
+                                    <a  title="JOHN ABRAHAM">
                                         <img src="../../public/15.webp" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
@@ -657,16 +659,16 @@ const Home = () => {
                                         <span>/ Founder</span>
                                     </h3>
                                     <div className="team-social-share text-center clearfix">
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-facebook rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-twitter rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-pinterest rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a  title="Facebook">
                                             <i className="fa fa-linkedin rectangle" />
                                         </a>
                                     </div>
@@ -679,7 +681,7 @@ const Home = () => {
                         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div className="team-layout-1">
                                 <figure className="team-member">
-                                    <a href="#" title="JOHN ABRAHAM">
+                                    <a title="JOHN ABRAHAM">
                                         <img src="../../public/16.webp" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
@@ -690,16 +692,16 @@ const Home = () => {
                                         <span>/ Founder</span>
                                     </h3>
                                     <div className="team-social-share text-center clearfix">
-                                        <a href="#" title="Facebook">
+                                        <a title="Facebook">
                                             <i className="fa fa-facebook rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a title="Facebook">
                                             <i className="fa fa-twitter rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a title="Facebook">
                                             <i className="fa fa-pinterest rectangle" />
                                         </a>
-                                        <a href="#" title="Facebook">
+                                        <a title="Facebook">
                                             <i className="fa fa-linkedin rectangle" />
                                         </a>
                                     </div>

@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Header.css"
+import { useNavigate } from 'react-router-dom'
 
 const Footer = () => {
+  const navigate = useNavigate()
   return (
     <div>
       
-      <footer>
+      <footer onClick={window.scrollTo(0,0)}>
   <section className="footer-widget-area footer-widget-area-bg">
     <div className="container">
       <div className="row">
@@ -18,25 +20,25 @@ const Footer = () => {
               {/*  end .footer-widget-header */}
               <ul className="footer-useful-links">
                 <li>
-                  <a href="/">
+                  <a onClick={()=>navigate('/')}>
                     <i className="fa fa-angle-double-right fa-footer" />
                      Home
                   </a>
                 </li>
                 <li>
-                  <a href="/About">
+                  <a onClick={()=>navigate('/About')} >
                     <i className="fa fa-angle-double-right fa-footer" />
                    About
                   </a>
                 </li>
                 <li>
-                  <a href="/Portfolio">
+                  <a onClick={()=>navigate('/Portfolio')} >
                     <i className="fa fa-angle-double-right fa-footer" />
                     Portfolio
                   </a>
                 </li>
                 <li>
-                  <a href="/Blog">
+                  <a onClick={()=>navigate('/Blog')} >
                     <i className="fa fa-angle-double-right fa-footer" />
                      Blog
                   </a>
@@ -57,25 +59,25 @@ const Footer = () => {
               {/*  end .footer-widget-header */}
               <ul className="footer-useful-links">
                 <li>
-                  <a href="/Faq">
+                  <a  onClick={()=>navigate('/Faq')}>
                     <i className="fa fa-angle-double-right fa-footer" />
                     Faq
                   </a>
                 </li>
                 <li>
-                  <a href="/Howitworks">
+                  <a onClick={()=>navigate('/Howitworks')} >
                     <i className="fa fa-angle-double-right fa-footer" />
                     How it works
                   </a>
                 </li>
                 <li>
-                  <a href="/Terms&condition">
+                  <a  onClick={()=>navigate('/Terms&condition')}>
                     <i className="fa fa-angle-double-right fa-footer" />
                     Terms and condition
                   </a>
                 </li>
                 <li>
-                  <a href="/Privacy">
+                  <a  onClick={()=>navigate('/Privacy')}>
                     <i className="fa fa-angle-double-right fa-footer" />
                    Privacy Policy</a>
                 </li>
@@ -95,13 +97,13 @@ const Footer = () => {
               {/*  end .footer-widget-header */}
               <ul className="footer-useful-links">
                 <li>
-                  <a href="/Contact">
+                  <a onClick={()=>navigate('/Contact')}>
                     <i className="fa fa-angle-double-right fa-footer" />
                    Contact Us
                   </a>
                 </li>
                 <li>
-                  <a href="/Donation">
+                  <a  onClick={()=>navigate('/Donation')}>
                     <i className="fa fa-angle-double-right fa-footer" />
                  Donate Now
                   </a>
@@ -150,7 +152,7 @@ Jagatpura, Jaipur
               <div className="textwidget contact-us">
                 <span className="fa fa-envelope-o" />
                 <p>
-                  <a href="#">support  msntrust2023@gmail.com</a>
+                  <a >support  msntrust2023@gmail.com</a>
                    
                 </p>
               </div>
@@ -178,16 +180,16 @@ Jagatpura, Jaipur
                 <p>
                   Spreads The Words
                   <br />
-                  <a href="#" className="footer-social-icon">
+                  <a  className="footer-social-icon">
                     <span className="fa fa-facebook icon" />
                   </a>
-                  <a href="#" className="footer-social-icon">
+                  <a  className="footer-social-icon">
                     <span className="fa fa-twitter icon" />
                   </a>
-                  <a href="#" className="footer-social-icon">
+                  <a  className="footer-social-icon">
                     <span className="fa fa-pinterest icon" />
                   </a>
-                  <a href="#" className="footer-social-icon">
+                  <a  className="footer-social-icon">
                     <span className="fa fa-linkedin icon" />
                   </a>
                 </p>

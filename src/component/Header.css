@@ -38,6 +38,12 @@
  * html5doctor.com/html-5-reset-stylesheet/
  */
 
+
+ a{
+    cursor: pointer !important;
+ }
+ 
+
 html,
 body,
 div,
@@ -1200,6 +1206,7 @@ a.btn-about:hover {
 }
 
 .main-top-header .top-bar-social a {
+    cursor: pointer;
     display: inline-block;
     transition: all 0.3s ease-out 0s;
     border-radius: 0;

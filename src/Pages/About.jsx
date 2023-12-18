@@ -24,7 +24,7 @@ const About = () => {
            About
         </h3>
         <p className="page-breadcrumb">
-          <a href="#">Home</a>
+          <a >Home</a>
           / About
         </p>
       </div>
@@ -319,7 +319,7 @@ const About = () => {
             <br />
             food for African Hungry People
           </h2>
-          <a className="btn btn-custom" href="/Donation">Join With Us</a>
+          <a className="btn btn-custom"  onClick={()=>navigate('/Donation')}>Join With Us</a>
         </div>
         {/* end .cta-content  */}
       </div>
