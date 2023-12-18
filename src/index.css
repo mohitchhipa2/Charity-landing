@@ -7,7 +7,7 @@
 
 
 element.style {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("../../vite-project/public/6.jpg") !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("../../public/6.jpg") !important;
     background-position: center center;
     background-size: cover;
     background-repeat: repeat;
