@@ -39,9 +39,9 @@
  */
 
 
- a{
+a {
     cursor: pointer !important;
- }
+}
 
 
 html,
@@ -1366,7 +1366,7 @@ a.logo img {
     border-radius: 0;
 }
 
-.navbar-default .navbar-collapse {
+.navbar-default  {
     padding: 0px;
 }
 
@@ -1376,6 +1376,7 @@ a.logo img {
     font-weight: 500;
     padding: 20px 40px;
     text-transform: uppercase;
+    /* display: none; */
 }
 
 .navbar-default .navbar-nav>li>a.link-active {
@@ -1816,7 +1817,7 @@ header.one-page .navbar-nav>li>a span {
 
 .section-banner {
     padding: 250px 0px 300px;
-    background: url("../../public/6.jpg");
+    background: url("/public/cherity-image6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -4437,7 +4438,7 @@ ul.pagination li:last-child {
     background-attachment: inherit;
     background-position: center center;
     background-color: transparent;
-    background-image: url("/public/6.jpg");
+    background-image: url("/public/cherity-image6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 0px solid #fff;
@@ -5083,7 +5084,7 @@ ul.pagination li:last-child {
     margin: 12px 0;
 }
 
- 
+
 /***********************************************************************************************/
 
 /* 11. 404 PAGE */
@@ -9012,7 +9013,7 @@ pre code {
 .row {
     margin-right: -15px;
     text-align: start;
-    margin-left: -15px;   
+    margin-left: -15px;
 }
 
 .col-lg-1,
@@ -18375,37 +18376,37 @@ button.close {
 
 
 
-.main-div{
+.main-div {
     background-color: #fafafa;
     height: auto;
-    width: 60%;
+    width: 88%;
     margin: auto;
     box-shadow: 1px 0px 20px -6px black;
-   padding-left: 50px;
-   padding-right: 50px;
-   margin-top: 20px;
-   padding-top: 20px;
-   margin-bottom: 20px;
-   padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-.main-divs{
+.main-divs {
     background-color: #fafafa;
-    height: 66vh;
-    width: 60%;
+    height: auto;
+    width: 88%;
     margin: auto;
     box-shadow: 1px 0px 20px -6px black;
-   padding-left: 50px;
-   padding-right: 50px;
-   margin-top: 20px;
-   padding-top: 20px;
-   margin-bottom: 20px;
-   padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 
-.row{
- margin-right: -20px;
+.row {
+    margin-right: -20px;
 }
 
 .header-top .info-separotor .header-icon-boxs {
@@ -18473,4 +18474,101 @@ button.close {
     letter-spacing: 0.05em;
     line-height: 24px;
     color: #111111;
+}
+
+.volunteers-image {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    .volunteers-image {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.scanner {
+    max-width: 250px;
+}
+
+/* @media(max-width:1200px) {
+    .response {
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
+
+.response {
+    display: flex;
+    flex-direction: row;
+} */
+
+@media (max-width:1200px) {
+    .carousel-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+.carousel-image {
+    width: 585px;
+}
+
+.carousel-main {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .carousel-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .carousel-image {
+        width: auto;
+    }
+
+    .header-logo {
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+@media(max-width:990px) {
+    .contactus {
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .footer-other {
+        display: flex;
+    }
+}
+
+
+@media(max-width:768px) {
+    .footer-other {
+        display: flex;
+    }
+
+
+}
+
+
+
+@media(max-width:438px) {
+    .scanner {
+        width: 150px;
+    }
 }

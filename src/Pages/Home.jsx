@@ -13,11 +13,12 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
+
+
     const navigate = useNavigate()
     return (
         <div>
-
-            <section className="section-banner"  
+            <section className="section-banner"
                 data-bg_color="#000000" data-bg_opacity="0.1" data-bg_color_2="#000000" data-bg_opacity_2="0.7" style={{ background: 'linear-gradient( rgba(0,0,0,0.1),  rgba(0,0,0,0.7) ), url("public/6.jpg")', backgroundPosition: 'center center', backgroundRepeat: 'repeat', backgroundAttachment: 'inherit', backgroundSize: 'cover', overflow: 'hidden' }}>
                 <div className="container">
                     <div className="row">
@@ -37,8 +38,8 @@ const Home = () => {
                                     We ensure financial supports over 10k orphans and their families.
                                 </h3>
                                 <div className="slider-button">
-                                    <a  className="btn btn-custom">Learn More</a>
-                                    <a  onClick={()=>navigate('/Donation')} className="btn btn-custom-inverse">Donate Now</a>
+
+                                    <a onClick={() => navigate('/Donation')} className="btn btn-custom-inverse">Donate Now</a>
                                 </div>
                             </div>
                         </div>
@@ -48,33 +49,24 @@ const Home = () => {
             </section>
 
 
+
             <section className="section-content-block">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div className="section-heading-wrapper no-padding">
                                 <h2>Our
-                                    <span>Mission</span>
+                                    <span>Vision</span>
                                 </h2>
                                 <hr />
                                 <p className="margin-top-20">
-                                    The Alliance for Children's Rights is dedicated solely to protecting the rights of impoverished, abused and neglected children. By providing free legal services, the Alliance ensure that they have safe, stable homes, health care and the education they
-                                    need to thrive.
+                                    Maa Shanti Nirmala Charitable Trust has been founded on 16th June 2023 by two founder trustees with the objective of social service to the human beings. The trust has wide spectrum of services such as scholarship to students, financial aid to under priviledged persons, promoting institutions in various sectors, creation of public utility infrastructures and, finally flourishing charity in the society.  The trust is meant to cater the masses with genuine and transparent manner. Citizens are requested to donate the trust and become part of the service to human beings.
                                 </p>
-                                <p>
-                                    Since its founding in 1992, the Alliance has been a consistent safety net for more than 100,000 children and families.
-                                </p>
-                                <div className="info-separotor">
-                                    <img src="../../public/signature.png" alt />
-                                    <p>
-                                        <strong>Brandon Munson</strong>
-                                        <br />CEO, Generosity Club
-                                    </p>
-                                </div>
+
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <img src="../../public/volunteers.jpg" alt />
+                            <img style={{ height: '450px', width: '750px' }} src="../../public/cherity-image2.jpg" alt />
                         </div>
                     </div>
                     {/*  end .row*/}
@@ -121,17 +113,37 @@ const Home = () => {
                 {/*  end .container  */}
             </section>
 
+            <section className="section-content-block section-cta">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 col-sm-12 text-center">
+                            <div className="cta-content-1 wow pulse animated" data-wow-iteration={2} data-wow-duration="0.3s" style={{
+                                visibility: 'visible', animationDuration: '0.3s', animationIterationCount: 2, animationName: 'pulse'
+                            }}>
 
+                                <iframe width="100%" height="600" src="https://www.youtube-nocookie.com/embed/Ga28sZ7yupw?si=_peqdKRVG_-nSfpS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <h2>Awesome voluntary Work
+                                </h2>
+                                <a onClick={() => navigate("/signup")} className="btn btn-custom" >Join With Us</a>
+                            </div>
+                            {/* end .cta-content  */}
+                        </div>
+                        {/* end .col-md-12 col-sm-12  */}
+                    </div>
+                    {/*  end .row */}
+                </div>
+                {/*  end .container  */}
+            </section>
 
 
 
 
             <section className="section-content-block section-secondary-bg">
                 <div className="container wow fadeIn animated" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
-                    <div className="row">
+                    <div style={{ display: 'flex', alignItems: 'center' }} className="row">
                         <div className="col-md-7">
                             <figure className="urget-cause-image">
-                                <img src="../../public/7.webp" alt="activity" />
+                                <img src="../../public/education1.jpg" alt="activity" />
                             </figure>
                         </div>
                         {/* end .col-sm-12  */}
@@ -152,21 +164,10 @@ const Home = () => {
                                     </div>
                                     {/*  end .cause-text  */}
                                     <div className="row">
-                                        <div className="col-sm-12">
-                                            <div className="fund-item-text clearfix">
-                                                <span className="fund-goal-text">TARGET: $10,000</span>
-                                                <span className="fund-raised-text pull-right">RAISED: $6,000</span>
-                                            </div>
-                                            {/*  end .fund-item-text  */}
-                                            <div className="progress">
-                                                <div style={{ width: '60%' }} aria-valuemax={100} aria-valuemin={0} aria-valuenow={60} role="progressbar" className="progress-bar progress-bcm" />
-                                                <span data-raised_percentage={60} className="fund-raised">60%</span>
-                                            </div>
-                                            {/*  end .progress  */}
-                                        </div>
+
                                         <div className="col-sm-12 clearfix">
-                                            
-                                            <a className="btn btn-theme pull-right"  onClick={()=>navigate('/Donation')}>Donate Now</a>
+
+                                            <a className="btn btn-theme pull-right" onClick={() => navigate('/Donation')}>Donate Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -195,248 +196,64 @@ const Home = () => {
                             </h2>
                             <h4>Provide integrated services for local communities.</h4>
                         </div>
-                        {/* end .col-sm-10  */}
+
                     </div>
-                    {/* end .row  */}
-                    <div className="row wow fadeIn animated" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
-                        <div className="cause-container owl-carousel owl-loaded owl-drag">
-                            {/* end .col-lg-4 col-md-4 col-sm-6  */}
-                            {/* end .col-lg-4 col-md-4 col-sm-6  */}
-                            {/* end .col-lg-4 col-md-4 col-sm-6  */}
-                            <div className="owl-stage-outer"><div className="owl-stage" style={{ transform: 'translate3d(-1170px, 0px, 0px)', transition: 'all 0s ease 0s', width: 4095 }}><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="images/cause_2.jpg" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $9,900</span>
-                                            <span data-raised_percentage={50} className="fund-raised">70%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $7,912</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
+
+
+                    <div className="cause-container carousel-main  ">
+
+                        <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12 carousel-image">
+                            <div className="cause-layout-1">
+                                <figure className="cause-img">
+                                    <img style={{ height: "420px", width: "585px" }} src="../../public/education2.jpg" alt="Cause" />
+                                </figure>
+
+
+                                <div className="cause-content text-center">
+                                    <h5>
+                                        <a href="#">Protect Children Rights</a>
+                                    </h5>
+                                    <p>
+                                        The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
+                                    </p>
+                                    <div className="clearfix">
+                                        <a className="btn btn-theme text-uppercase" onClick={() => navigate('/Donation')}>Donate Now</a>
                                     </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Ensure Safe Foods</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
                                 </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="../../public/7.webp" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $3,331</span>
-                                            <span data-raised_percentage={50} className="fund-raised">60%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $2,991</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
+
+
+
+                            </div></div>
+
+                        <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 carousel-image">
+                            <div className="cause-layout-1">
+                                <figure className="cause-img">
+                                    <img style={{ height: "420px" }} src="../../public/education3.jpg" alt="Cause" />
+                                </figure>
+
+
+                                <div className="cause-content text-center">
+                                    <h5>
+                                        <a href="#">Ensure Safe Foods</a>
+                                    </h5>
+                                    <p>
+                                        The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
+                                    </p>
+                                    <div className="clearfix">
+                                        <a className="btn btn-theme text-uppercase" onClick={() => navigate('/Donation')}>Donate Now</a>
                                     </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Stop Child Abuse</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
                                 </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div><div className="owl-item active" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="../../public/8.webp" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $4,000</span>
-                                            <span data-raised_percentage={50} className="fund-raised">50%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $1,999</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
-                                    </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Protect Children Rights</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
-                                </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div><div className="owl-item active" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="../../public/9.webp" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $9,900</span>
-                                            <span data-raised_percentage={50} className="fund-raised">70%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $7,912</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
-                                    </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Ensure Safe Foods</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
-                                </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div><div className="owl-item" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="../../images/cause_3.jpg" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $3,331</span>
-                                            <span data-raised_percentage={50} className="fund-raised">60%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $2,991</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
-                                    </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Stop Child Abuse</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
-                                </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="images/cause_1.jpg" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $4,000</span>
-                                            <span data-raised_percentage={50} className="fund-raised">50%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $1,999</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
-                                    </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Protect Children Rights</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase"  onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
-                                </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <div className="cause-layout-1">
-                                    <figure className="cause-img">
-                                        <img src="images/cause_2.jpg" alt="Cause" />
-                                    </figure>
-                                    {/* end .cause-img  */}
-                                    <div className="fund-info">
-                                        <div className="fund-item-text">
-                                            <span className="fund-goal-text">
-                                                <strong>TARGET:</strong>
-                                                $9,900</span>
-                                            <span data-raised_percentage={50} className="fund-raised">70%</span>
-                                            <span className="fund-raised-text">
-                                                <strong>RAISED:</strong>
-                                                $7,912</span>
-                                        </div>
-                                        {/*  end .fund-item-text  */}
-                                    </div>
-                                    <div className="cause-content text-center">
-                                        <h5>
-                                            <a href="#">Ensure Safe Foods</a>
-                                        </h5>
-                                        <p>
-                                            The alliance for children rights is dedicated solely to protecting the rights of impovere, abused and neglected children.
-                                        </p>
-                                        <div className="clearfix">
-                                            <a className="btn btn-theme text-uppercase" onClick={()=>navigate('/Donation')}>Donate Now</a>
-                                        </div>
-                                    </div>
-                                    {/* end .cause-content  */}
-                                </div>
-                                {/* end .cause-wrapper  */}
-                            </div></div></div></div></div>
+
+
+                            </div></div>
+
+
                     </div>
-                    {/* end .row  */}
+
+
                 </div>
-                {/* end .container  */}
+
             </section>
-
-
-
-
 
 
             <section className="section-content-block section-counter section-black-bg-overlay" data-stellar-background-ratio="0.5" style={{ backgroundPosition: '0% -23.3555px' }}>
@@ -485,7 +302,7 @@ const Home = () => {
                     <div className="row section-heading-wrapper">
                         <div className="col-md-12 col-sm-12 text-center">
                             <h2>Upcoming
-                                <span>Events</span>
+                                &nbsp;<span>Events / Blogs</span>
                             </h2>
                             <h4>Social Services community settlement houses provide integrated.</h4>
                         </div>
@@ -496,7 +313,7 @@ const Home = () => {
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="event-wrapper-1">
                                 <figure className="event-img">
-                                    <img src="../../public/10.webp" alt />
+                                    <img style={{ height: '430px', width: "500px" }} src="../../public/cherity-image4.jpg" alt />
                                     <div className="event-date">
                                         <i className="fa fa-calendar" />
                                         15 Sep 2017</div>
@@ -506,9 +323,7 @@ const Home = () => {
                                         <a >Bring Orphan's Happiness</a>
                                     </h5>
                                     <p>We work to unite the geek community into a massive force to opportunity families and communities worldwide.</p>
-                                    <span className="btn-read-more">
-                                        <a >Read More »</a>
-                                    </span>
+
                                 </div>
                             </div>
                             {/* end .event-wrapper-1  */}
@@ -517,7 +332,7 @@ const Home = () => {
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="event-wrapper-1">
                                 <figure className="event-img">
-                                    <img src="../../public/11.webp" alt />
+                                    <img style={{ height: '430px', width: "500px" }} src="../../public/cherity-image5.jpg" alt />
                                     <div className="event-date">
                                         <i className="fa fa-calendar" />
                                         25 Sep 2017</div>
@@ -527,9 +342,7 @@ const Home = () => {
                                         <a >Provide Equal Opportunity</a>
                                     </h5>
                                     <p>We work to unite the geek community into a massive force to opportunity families and communities worldwide.</p>
-                                    <span className="btn-read-more">
-                                        <a >Read More »</a>
-                                    </span>
+
                                 </div>
                             </div>
                             {/* end .event-wrapper-1  */}
@@ -538,7 +351,7 @@ const Home = () => {
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="event-wrapper-1">
                                 <figure className="event-img">
-                                    <img src="../../public/12.webp" alt />
+                                    <img style={{ height: '430px', width: "500px" }} src="../../public/cherity-image3.jpg" alt />
                                     <div className="event-date">
                                         <i className="fa fa-calendar" />
                                         20 Sep 2017</div>
@@ -548,9 +361,7 @@ const Home = () => {
                                         <a >Charity Benefit Concert</a>
                                     </h5>
                                     <p>We work to unite the geek community into a massive force to opportunity families and communities worldwide.</p>
-                                    <span className="btn-read-more">
-                                        <a >Read More »</a>
-                                    </span>
+
                                 </div>
                             </div>
                             {/* end .event-wrapper-1 */}
@@ -558,15 +369,10 @@ const Home = () => {
                         {/* end .col-lg-4 col-md-4  */}
                     </div>
                     {/* end .row  */}
-                    <div className="row">
-                        <div className="col-sm-12 col-md-4 col-md-offset-4 text-center">
-                            <a className="btn btn-load-more" >- Load All Events -</a>
-                        </div>
-                    </div>
+
                 </div>
                 {/* end .container  */}
             </section>
-
             <section className="section-content-block">
                 <div className="container">
                     <div className="row section-heading-wrapper">
@@ -578,97 +384,33 @@ const Home = () => {
                         </div>
                         {/* end .col-sm-12  */}
                     </div>
-                    <div className="row wow fadeIn animated" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
-                        <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div className="team-layout-1">
-                                <figure className="team-member">
-                                    <a  title="MELISSA MUNOZ">
-                                        <img src="../../public/13.webp" alt="MELISSA MUNOZ" />
-                                    </a>
-                                </figure>
-                                {/* end. team-member  */}
-                                <article className="team-info">
-                                    <h3>
-                                        Jhon Doe
-                                        <span>/ Founder</span>
-                                    </h3>
-                                    <div className="team-social-share text-center clearfix">
-                                        <a  title="Facebook">
-                                            <i className="fa fa-facebook rectangle" />
-                                        </a>
-                                        <a  title="Facebook">
-                                            <i className="fa fa-twitter rectangle" />
-                                        </a>
-                                        <a  title="Facebook">
-                                            <i className="fa fa-pinterest rectangle" />
-                                        </a>
-                                        <a  title="Facebook">
-                                            <i className="fa fa-linkedin rectangle" />
-                                        </a>
-                                    </div>
-                                    {/* end .author-social-box  */}
-                                </article>
-                            </div>
-                            {/*  end team layout-1 */}
-                        </div>
-                        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-                        <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div className="team-layout-1">
-                                <figure className="team-member">
-                                    <a  title="ALEXANDER GARY">
-                                        <img src="../../public/14.webp" alt="ALEXANDER GARY" />
-                                    </a>
-                                </figure>
-                                {/* end. team-member  */}
-                                <article className="team-info">
-                                    <h3>
-                                        Jack Smith
-                                        <span>/ Founder</span>
-                                    </h3>
-                                    <div className="team-social-share text-center clearfix">
-                                        <a  title="Facebook">
-                                            <i className="fa fa-facebook rectangle" />
-                                        </a>
-                                        <a  title="Facebook">
-                                            <i className="fa fa-twitter rectangle" />
-                                        </a>
-                                        <a  title="Facebook">
-                                            <i className="fa fa-pinterest rectangle" />
-                                        </a>
-                                        <a  title="Facebook">
-                                            <i className="fa fa-linkedin rectangle" />
-                                        </a>
-                                    </div>
-                                    {/* end .author-social-box  */}
-                                </article>
-                            </div>
-                            {/*  end team-layout-1 */}
-                        </div>
+                    <div className="row wow fadeIn animated volunteers-image" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
+
                         {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12  */}
                         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div className="team-layout-1">
                                 <figure className="team-member">
-                                    <a  title="JOHN ABRAHAM">
-                                        <img src="../../public/15.webp" alt="JOHN ABRAHAM" />
+                                    <a title="JOHN ABRAHAM">
+                                        <img src="../../public/ceoPhoto.jpg" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
                                 <article className="team-info">
                                     <h3>
-                                        James Lora
-                                        <span>/ Founder</span>
+                                        Chanchal Kumar
+                                        <br /> <span> Founder Trustee</span>
                                     </h3>
                                     <div className="team-social-share text-center clearfix">
-                                        <a  title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-facebook rectangle" />
                                         </a>
-                                        <a  title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-twitter rectangle" />
                                         </a>
-                                        <a  title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-pinterest rectangle" />
                                         </a>
-                                        <a  title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-linkedin rectangle" />
                                         </a>
                                     </div>
@@ -682,26 +424,26 @@ const Home = () => {
                             <div className="team-layout-1">
                                 <figure className="team-member">
                                     <a title="JOHN ABRAHAM">
-                                        <img src="../../public/16.webp" alt="JOHN ABRAHAM" />
+                                        <img src="../../public/3.jpg" alt="JOHN ABRAHAM" />
                                     </a>
                                 </figure>
                                 {/* end. team-member  */}
                                 <article className="team-info">
                                     <h3>
-                                        Jhon Doe
-                                        <span>/ Founder</span>
+                                        Mala  Saxena
+                                        <br /> <span> Founder Trustee</span>
                                     </h3>
                                     <div className="team-social-share text-center clearfix">
-                                        <a title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-facebook rectangle" />
                                         </a>
-                                        <a title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-twitter rectangle" />
                                         </a>
-                                        <a title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-pinterest rectangle" />
                                         </a>
-                                        <a title="Facebook">
+                                        <a href="#" title="Facebook">
                                             <i className="fa fa-linkedin rectangle" />
                                         </a>
                                     </div>
@@ -719,33 +461,13 @@ const Home = () => {
 
 
 
-            <section className="section-content-block section-cta">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-sm-12 text-center">
-                            <div className="cta-content-1 wow pulse animated" data-wow-iteration={2} data-wow-duration="0.3s" style={{ 
-                            visibility: 'visible', animationDuration: '0.3s', animationIterationCount: 2, animationName: 'pulse' }}>
-                                <a className="banner-video-icon venobox vbox-item" data-vbtype="video" data-autoplay="true" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                                    <i className="fa fa-play" />
-                                </a>
-                                <h2>Awesome voluntary Work
-                                </h2>
-                                <a className="btn btn-custom" href="/Donation">Join With Us</a>
-                            </div>
-                            {/* end .cta-content  */}
-                        </div>
-                        {/* end .col-md-12 col-sm-12  */}
-                    </div>
-                    {/*  end .row */}
-                </div>
-                {/*  end .container  */}
-            </section>
 
 
 
 
 
-            <section className="section-content-block">
+
+            {/* <section className="section-content-block">
                 <div className="container">
                     <div className="row section-heading-wrapper">
                         <div className="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -754,7 +476,7 @@ const Home = () => {
                             </h2>
                             <h4>Human Rights charities support the passage and enforcement.</h4>
                         </div>
-                        {/* end .col-sm-12  */}
+                       
                     </div>
                     <div className="row">
                         <div className="testimonial-container owl-carousel owl-loaded owl-drag">
@@ -768,7 +490,7 @@ const Home = () => {
                                         <h6 className="bq-author-info">CEO, HW Tech Inc</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2 */}
+                           
                             </div></div><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div className="testimony-layout-2">
                                     <p className="testimony-text">
@@ -779,7 +501,7 @@ const Home = () => {
                                         <h6 className="bq-author-info">CEO, HW Tech Inc</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2  */}
+                         
                             </div></div><div className="owl-item" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div className="testimony-layout-2">
                                     <p className="testimony-text">
@@ -790,7 +512,7 @@ const Home = () => {
                                         <h6>CTO, Fulcrum Design</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2  */}
+                          
                             </div></div><div className="owl-item" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div className="testimony-layout-2">
                                     <p className="testimony-text">
@@ -801,7 +523,7 @@ const Home = () => {
                                         <h6 className="bq-author-info">CEO, HW Tech Inc</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2 */}
+                                
                             </div></div><div className="owl-item active" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div className="testimony-layout-2">
                                     <p className="testimony-text">
@@ -812,7 +534,7 @@ const Home = () => {
                                         <h6 className="bq-author-info">CEO, HW Tech Inc</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2  */}
+                               
                             </div></div><div className="owl-item cloned active" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div className="testimony-layout-2">
                                     <p className="testimony-text">
@@ -823,7 +545,7 @@ const Home = () => {
                                         <h6>CTO, Fulcrum Design</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2  */}
+                                
                             </div></div><div className="owl-item cloned" style={{ width: 585 }}><div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div className="testimony-layout-2">
                                     <p className="testimony-text">
@@ -834,14 +556,14 @@ const Home = () => {
                                         <h6 className="bq-author-info">CEO, HW Tech Inc</h6>
                                     </div>
                                 </div>
-                                {/* end .testimony-layout-2 */}
+                                 
                             </div></div></div></div> </div>
-                        {/* end .testimonial-container  */}
+                       
                     </div>
-                    {/* end row  */}
+                    
                 </div>
-                {/*  end .container  */}
-            </section>
+               
+            </section> */}
 
 
             <section className="section-content-block section-secondary-bg"> <div className="container">
@@ -858,11 +580,11 @@ const Home = () => {
             </div>
                 <div className="container">
                     <div className="row filterable-gallery">
-                         
+
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter hdpe">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" >
                                 <figure className="gallery-img">
-                                    <img src="../../public/17.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/education2.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -870,18 +592,18 @@ const Home = () => {
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container  filter sprinkle">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" >
                                 <figure className="gallery-img">
-                                    <img src="../../public/18.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/education3.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery"  >
                                 <figure className="gallery-img">
-                                    <img src="../../public/19.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/volunteers1.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -889,18 +611,18 @@ const Home = () => {
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter spray">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" >
                                 <figure className="gallery-img">
-                                    <img src="../../public/23.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/cherity-image5.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" >
                                 <figure className="gallery-img">
-                                    <img src="../../public/24.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/volunteers3.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -908,18 +630,18 @@ const Home = () => {
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter sprinkle">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery"  >
                                 <figure className="gallery-img">
-                                    <img src="../../public/20.webp " alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/cherity-image1.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter hdpe">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_1.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery"  >
                                 <figure className="gallery-img">
-                                    <img src="../../public/21.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/education4.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -927,9 +649,9 @@ const Home = () => {
                         </div>
                         {/* end .col-sm-3  */}
                         <div className="col-md-3 col-sm-6 col-xs-12 gallery-container filter irrigation">
-                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery" href="images/gallery_2.jpg">
+                            <a className="gallery-light-box xs-margin vbox-item" data-gall="myGallery"  >
                                 <figure className="gallery-img">
-                                    <img src="../../public/22.webp" alt="gallery image" />
+                                    <img style={{ height: "250px" }} src="../../public/education5.jpg" alt="gallery image" />
                                 </figure>
                                 {/* end .cause-img  */}
                             </a>
@@ -940,77 +662,6 @@ const Home = () => {
                 </div>
                 {/* end .container */}
             </section>
-
-
-
-
-            <section className="section-content-block">
-                <div className="container wow fadeIn animated" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
-                    <div className="row section-heading-wrapper">
-                        <div className="col-lg-12 col-md-12 col-sm-12 text-left no-padding">
-                            <h2>Our
-                                <span>sponsors</span>
-                            </h2>
-                            <h4>Human service organizations promote volunteerism and provide wide range of direct services.</h4>
-                        </div>
-                        {/* end .col-sm-12  */}
-                    </div>
-                    <div className="row">
-                        <div className="logo-layout-2">
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_1.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_2.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_3.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_4.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_5.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="public/logo_6.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_7.webp" alt />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="../../public/logo_8.webp" alt />
-                                </div>
-                            </div>
-                        </div>
-                        {/* end .logo-items  */}
-                    </div>
-                    {/* end row  */}
-                </div>
-                {/* end .container  */}
-            </section>
-
-
- 
-
-
-
-
 
         </div>
     )

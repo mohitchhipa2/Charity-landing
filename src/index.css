@@ -5,15 +5,4 @@
     text-align: center;
 }
 
-
-element.style {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("../../public/6.jpg") !important;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: repeat;
-    background-attachment: inherit;
-    background-origin: initial, initial;
-    background-clip: initial, initial;
-    background-color: initial;
-    overflow: hidden;
-}
+ 

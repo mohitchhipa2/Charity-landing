@@ -1,13 +1,16 @@
-import React from 'react'
 import "./Header.css"
 import '@fortawesome/fontawesome-free/css/all.css';
+import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 
 
+const Header = (props) => {
+  const navigate = useNavigate();
+  const [open, setOpen] = useState(false);
 
-const Header = () => {
-  const navigate = useNavigate()
-
+  const handlefalse = () => {
+    setOpen(!open);
+  }
   return (
     <div>
 
@@ -19,19 +22,15 @@ const Header = () => {
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 text-left hidden-sm hidden-xs">
                   <div className="top-bar-social">
-                    <a >
+                    <a href="https://www.facebook.com/MaaShantiNirmalaCharitableTrust">
                       <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a >
+                    <a href="https://twitter.com/MSNCTrust" >
                       <i class="fa-brands fa-x-twitter"></i>
                     </a>
-                    <a >
-                      <i class="fa-brands fa-pinterest"></i>
-                    </a>
-                    <a >
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a >
+
+
+                    <a href="https://www.youtube.com/@MaaShantiNirmalaCharitable">
                       <i class="fa-brands fa-youtube"></i>
                     </a>
                   </div>
@@ -39,7 +38,7 @@ const Header = () => {
                 <div className="col-lg-6 col-md-6 text-right hidden-sm hidden-xs">
                   <div className="top-bar-link">
 
-                    <a onClick={()=>navigate('/Contact')}>Support</a>
+                    <a onClick={() => navigate('/signup')}>SignIn</a>
                   </div>
                 </div>
               </div>
@@ -50,8 +49,8 @@ const Header = () => {
               <div className="row">
                 <div className="col-md-4 col-sm-12 header-col-logo">
                   <div className="header-logo logo">
-                    <a>
-                      <img src="public/logo.jpg" alt="Logo" />
+                    <a onClick={() => navigate("/")}>
+                      <img src="public/logo2.jpg.png" alt="Logo" />
                     </a>
                   </div>
                   {/* end .logo  */}
@@ -66,9 +65,9 @@ const Header = () => {
                         </div>
                         <div className="text">
                           <span className="head-heading">Get In Touch</span>
-                          <span className="head-content">
+                          <a href="mailto:msntrust2023@gmail.com" className="head-content">
                             msntrust2023@gmail.com
-                          </span>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -118,14 +117,10 @@ const Header = () => {
               <div className="navbar-collapse collapse pull-left">
                 <ul className="nav navbar-nav">
                   <li onClick={() => navigate("/")} className="drop">
-                    <a  title="Home Layout 01" className="link-active">Home</a>
-                    <ul className="drop-down">
-
-
-                    </ul>
+                    <a title="Home Layout 01" >Home</a>
                   </li>
                   <li onClick={() => navigate("/About")}>
-                    <a  title="About Us">About Us</a>
+                    <a title="About Us">About Us</a>
 
                   </li>
                   <li onClick={() => navigate("/Portfolio")} className="drop">
@@ -135,10 +130,10 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="drop">
-                    <a onClick={()=>navigate('/Blog')}>Blog</a>
+                    <a onClick={() => navigate('/Blog')}>Blog</a>
                   </li>
                   <li>
-                    <a  >others</a>
+                    <a >others</a>
                     <ul className="drop-down">
                       <li onClick={() => navigate("/Contact")}>
                         <a  >contact us</a>
@@ -160,7 +155,7 @@ const Header = () => {
 
 
                 </ul>
-                {/* end .nav .navbar-nav  */}
+
               </div>
               <div className="navbar-header pull-right">
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -175,9 +170,13 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            {/* end .container  */}
+
           </div>
-          {/* end .navbar .navbar-default  */}
+
+
+
+
+          {props.outlet}
         </section>
       </header>
 
